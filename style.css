@@ -406,6 +406,26 @@ img {
   right:0;
 }
 
+/* Events */
+
+.hero-hightlight {
+  height: 100vh;
+  background: url(images);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.highlight-title {
+  background-color: #1d2a60;
+  text-align: center;
+  padding: 10px;
+  opacity: 90%;
+}
+
+
 
   @media screen and (min-width: 600px) {
     .nav-toggle-label {
