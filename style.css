@@ -408,9 +408,9 @@ img {
 
 /* Events */
 
-.hero-hightlight {
+.events {
   height: 100vh;
-  background: url(images);
+  background: url(images/eventhero.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -418,7 +418,64 @@ img {
   padding: 10px;
 }
 
-.highlight-title {
+.event-title {
+  background-color: #1d2a60;
+  text-align: center;
+  padding: 10px;
+  opacity: 90%;
+}
+
+.card-container {
+  display: flex;
+  gap: .5em;
+  color: #252525;
+  margin: 25px 0;
+}
+
+.card-container h3 {
+  color: #252525;
+}
+
+.card-container-photo {
+  flex: 1;
+}
+
+.card-container-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-container-colorblue {
+  width: 35px;
+  background: #293462;
+}
+
+.card-container-colorred {
+  width: 35px;
+  background: #F24C4C;
+}
+
+.card-container-content {
+  flex: 2;
+  background: #E3E5EC;
+  padding: 2em;
+}
+
+
+/* Donation*/
+
+.Donatation-highlight {
+  height: 100vh;
+  background: url(images/hero-donation.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.Donation-title {
   background-color: #1d2a60;
   text-align: center;
   padding: 10px;
@@ -426,6 +483,14 @@ img {
 }
 
 
+
+/* Donation Signup Form */
+
+
+
+
+
+/* Navagation */
 
   @media screen and (min-width: 600px) {
     .nav-toggle-label {
