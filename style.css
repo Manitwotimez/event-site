@@ -18,6 +18,7 @@
     padding: 0;
     font-size: 1.5rem;
     color: #f9f9f9;
+   
   }
   
 
@@ -638,6 +639,7 @@ img {
   text-align: center;
   padding: 10px;
   opacity: 90%;
+  line-height: 1.5em;
 }
 
 button a{
