@@ -589,6 +589,7 @@ img {
   gap: .5em;
   color: #252525;
   margin: 25px 0;
+  line-height:1.5em;
 }
 
 .card-container h3 {
