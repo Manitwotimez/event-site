@@ -519,10 +519,10 @@ img {
 .overlay-container{
   position:relative;
   width:200px;
-  height:200px;
+  
   overflow: hidden;
   display:inline-block;
-  padding:8px;
+ 
   margin: auto;
 }
 
