@@ -85,7 +85,7 @@
   }
   
   .nav-toggle-label span {
-    color: white;
+    color: yellow;
     font-size: 1.5em;
   }
   
@@ -115,7 +115,7 @@
   }
   
   nav a {
-    color: white;
+    color: yellow;
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -177,6 +177,11 @@
 
 
 /* Footer */
+
+.footer-logo {
+align-items: ;  
+
+}
 .site-footer
 {
   background-color:#293462;
