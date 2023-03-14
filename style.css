@@ -179,8 +179,14 @@
 /* Footer */
 
 .footer-logo {
-align-items: ;  
+display: flex;
+justify-content: flex-end;
 
+}
+
+.footer img{
+
+  margin-left: auto;
 }
 .site-footer
 {
