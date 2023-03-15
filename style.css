@@ -204,7 +204,7 @@ justify-content: flex-end;
 }
 .site-footer hr
 {
-  border-top-color;
+  
   opacity:0.5;
 }
 .site-footer hr.small
@@ -530,7 +530,7 @@ img {
 
 .overlay-container{
   position:relative;
-  width:200px;
+  width: 200px;
   
   overflow: hidden;
   display:inline-block;
@@ -570,10 +570,14 @@ img {
 
 
 .overlay-fade{
-  height:89%;
+  height:100%;
   width:100%;
   top:0;
   right:0;
+}
+
+.container{
+  padding-bottom: 40px;
 }
 
 /* Events */
