@@ -530,7 +530,8 @@ img {
 
 .overlay-container{
   position:relative;
-  width: 2px;
+  width: 200px;
+  padding: 6px;
   
   overflow: hidden;
   display:inline-block;
